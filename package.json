@@ -1,0 +1,31 @@
+{
+  "name": "smol-happy",
+  "version": "1.0.0",
+  "description": "Hapi toy code",
+  "main": "build/main.js",
+  "scripts": {
+    "run": "node build/main.js",
+    "tsc": "tsc",
+    "test": "NODE_ENV=test mocha -r ts-node/register test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/perbu/smol-happy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/hapi__hapi": "^20.0.9",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.12",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1"
+  }
+}
